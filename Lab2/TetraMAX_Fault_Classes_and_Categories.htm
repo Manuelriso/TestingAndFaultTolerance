@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-conditions="WH.no_command,pdf.tmax_ug" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Fault Lists and Faults">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Fault Categories and Classes</title>
+        <script>/* <![CDATA[ */
+			$(function () {
+			$('../nav ../li ../ul').hide().removeClass('fallback');
+			$('../nav ../li').hover(function () {
+			$('../ul', this).stop().slideToggle(200);
+			});
+			});
+		/* ]]> */</script>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../TetraMAX_Help.css" rel="stylesheet" />
+        <script src="../../sniffer.js">
+        </script>
+        <script src="../../fh_dhtml.js">
+        </script>
+        <script src="../../stm31.js">
+        </script>
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+        </script>
+    </head>
+    <body>
+        <h8 bgcolor="#e6e6fa" data-mc-conditions="WH.no_command">
+            <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">TetraMAX Help K-2015.06-SP4: </span><a class="MCBreadcrumbsLink" href="faults.htm">Fault Lists and Faults</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Fault Categories and Classes</span>
+            </div>
+            <nav id="nav">
+                <ul id="navigation">
+                    <li><a href="../../command_group.htm">Commands</a>
+                        <ul>
+                            <li><a href="../../command_group_add.htm">Add Commands</a>
+                            </li>
+                            <li><a href="../../command_group_analyze.htm">Analyze Commands</a>
+                            </li>
+                            <li><a href="../../command_group_license.htm">License Commands</a>
+                            </li>
+                            <li><a href="../../command_group_read.htm">Read Commands</a>
+                            </li>
+                            <li><a href="../../command_group_remove.htm">Remove Commands</a>
+                            </li>
+                            <li><a href="../../command_group_report.htm">Report Commands</a>
+                            </li>
+                            <li><a href="../../command_group_run.htm">Run Commands</a>
+                            </li>
+                            <li><a href="../../command_group_set.htm">Set Commands</a>
+                            </li>
+                            <li><a href="../../command_group_shell.htm">Shell Commands</a>
+                            </li>
+                            <li><a href="../../command_group_tcl.htm">Tcl API Commands</a>
+                            </li>
+                            <li><a href="../../command_group_update.htm">Update Commands</a>
+                            </li>
+                            <li><a href="../../command_group_write.htm">Write Commands</a>
+                            </li>
+                            <li><a href="../../command_group_other.htm">Other Commands</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="../../rule_top.htm">DRC Rules</a>
+                        <ul>
+                            <li><a href="../../drc_b_main.htm">B - Build
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_c_main.htm">C - Clock
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_d_main.htm">D - DFT
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_n_main.htm">N - Netlist
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_p_main.htm">P - Path
+								Delay Rules</a>
+                            </li>
+                            <li><a href="../../drc_r_main.htm">R - Compression
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_s_main.htm">S - Scan
+								Chain Rules</a>
+                            </li>
+                            <li><a href="../../drc_v_main.htm">V - Vector
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_x_main.htm">X - X-state
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_z_main.htm">Z - Tristate
+								Rules</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="../../message_top.htm">Messages</a>
+                        <ul>
+                            <li><a href="../../man_m1_99.htm">M1-M99</a>
+                            </li>
+                            <li><a href="../../man_m100_199.htm">M100-M199</a>
+                            </li>
+                            <li><a href="../../man_m200_299.htm">M200-M299</a>
+                            </li>
+                            <li><a href="../../man_m300_399.htm">M300-M399</a>
+                            </li>
+                            <li><a href="../../man_m400_499.htm">M400-M499</a>
+                            </li>
+                            <li><a href="../../man_m500_599.htm">M500-M599</a>
+                            </li>
+                            <li><a href="../../man_m600_699.htm">M600-M699</a>
+                            </li>
+                            <li><a href="../../man_m700_799.htm">M700-M799</a>
+                            </li>
+                            <li><a href="../../man_m800_860.htm">M800-M990</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </h8>
+        <h7 bgcolor="#e6e6fa" data-mc-conditions="WH.command">
+            <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">TetraMAX Help K-2015.06-SP4: </span><a class="MCBreadcrumbsLink" href="faults.htm">Fault Lists and Faults</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Fault Categories and Classes</span>
+            </div>
+            <nav id="nav">
+                <ul id="navigation">
+                    <li><a href="../../command_group.htm">Commands</a>
+                        <ul>
+                            <li><a href="../../command_group_add.htm">Add Commands</a>
+                            </li>
+                            <li><a href="../../command_group_analyze.htm">Analyze Commands</a>
+                            </li>
+                            <li><a href="../../command_group_license.htm">License Commands</a>
+                            </li>
+                            <li><a href="../../command_group_read.htm">Read Commands</a>
+                            </li>
+                            <li><a href="../../command_group_remove.htm">Remove Commands</a>
+                            </li>
+                            <li><a href="../../command_group_report.htm">Report Commands</a>
+                            </li>
+                            <li><a href="../../command_group_run.htm">Run Commands</a>
+                            </li>
+                            <li><a href="../../command_group_set.htm">Set Commands</a>
+                            </li>
+                            <li><a href="../../command_group_shell.htm">Shell Commands</a>
+                            </li>
+                            <li><a href="../../command_group_tcl.htm">Tcl API Commands</a>
+                            </li>
+                            <li><a href="../../command_group_update.htm">Update Commands</a>
+                            </li>
+                            <li><a href="../../command_group_write.htm">Write Commands</a>
+                            </li>
+                            <li><a href="../../command_group_other.htm">Other Commands</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="../../rule_top.htm">DRC Rules</a>
+                        <ul>
+                            <li><a href="../../drc_b_main.htm">B - Build
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_c_main.htm">C - Clock
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_d_main.htm">D - DFT
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_n_main.htm">N - Netlist
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_p_main.htm">P - Path
+								Delay Rules</a>
+                            </li>
+                            <li><a href="../../drc_r_main.htm">R - Compression
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_s_main.htm">S - Scan
+								Chain Rules</a>
+                            </li>
+                            <li><a href="../../drc_v_main.htm">V - Vector
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_x_main.htm">X - X-state
+								Rules</a>
+                            </li>
+                            <li><a href="../../drc_z_main.htm">Z - Tristate
+								Rules</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="../../message_top.htm">Messages</a>
+                        <ul>
+                            <li><a href="../../man_m1_99.htm">M1-M99</a>
+                            </li>
+                            <li><a href="../../man_m100_199.htm">M100-M199</a>
+                            </li>
+                            <li><a href="../../man_m200_299.htm">M200-M299</a>
+                            </li>
+                            <li><a href="../../man_m300_399.htm">M300-M399</a>
+                            </li>
+                            <li><a href="../../man_m400_499.htm">M400-M499</a>
+                            </li>
+                            <li><a href="../../man_m500_599.htm">M500-M599</a>
+                            </li>
+                            <li><a href="../../man_m600_699.htm">M600-M699</a>
+                            </li>
+                            <li><a href="../../man_m700_799.htm">M700-M799</a>
+                            </li>
+                            <li><a href="../../man_m800_860.htm">M800-M990</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </h7>
+        <div class="MCBreadcrumbsBox_0">
+            <p style="margin-bottom: -10px;">&#160;</p>
+        </div>
+        <h6 data-mc-conditions="pdf.pdf_exclude"><a name="aanchor30"></a>
+            <MadCap:concept term="TetraMAX User Guide" />
+        </h6>
+        <h2>Fault Categories and Classes</h2>
+        <p class="Base">Faults are assigned to classes corresponding to their current fault detection or detectability status. A two-character code is used to specify a fault class. Fault classes are hierarchically defined: low-level fault classes can be grouped together to form a higher level fault classes. Faults are only assigned
+the low fault classes but the high level fault classes may be used for reporting. The fault class hierarchy
+for all fault classes is as follows:</p>
+        <h3>Fault Class Hierarchy</h3>
+        <p><b>DT</b> - Detected</p>
+        <p class="Argumentpara"><b>DR</b> - Detected Robustly</p>
+        <p class="Argumentpara"><b>DS</b> - Detected by Simulation</p>
+        <p class="Argumentpara"><b>DI</b> - Detected by Implication</p>
+        <p class="Argumentpara"><b>D2</b> - Detected clock fault with loadable nonscan cell faulty value of 0 and 1</p>
+        <p class="Argumentpara"><b>TP</b> - Transition partially detected</p>
+        <p><b>PT</b> - Possibly Detected</p>
+        <p class="Argumentpara"><b>AP</b> - ATPG Untestable Possibly Detected</p>
+        <p class="Argumentpara"><b>NP</b> - Not analyzed, Possibly Detected</p>
+        <p class="Argumentpara"><b>P0</b> - Detected clock fault and loadable nonscan cell faulty value is 0</p>
+        <p class="Argumentpara"><b>P1</b> - Detected clock fault and loadable nonscan cell faulty value is 1</p>
+        <p><b>UD</b> - Undetectable</p>
+        <p class="Argumentpara"><b>UU</b> - Undetectable Unused</p>
+        <p class="Argumentpara"><b>UO</b> - Undetectable Unobservable</p>
+        <p class="Argumentpara"><b>UT</b> - Undetectable Tied</p>
+        <p class="Argumentpara"><b>UB</b> - Undetectable Blocked</p>
+        <p class="Argumentpara"><b>UR</b> - Undetectable Redundant</p>
+        <p><b>AU</b> - ATPG Untestable</p>
+        <p class="Argumentpara"><b>AN</b> - ATPG Untestable Not-Detected</p>
+        <p class="Argumentpara"><b>AX</b> - ATPG Untestable Timing Exceptions</p>
+        <p><b>ND</b> - Not Detected</p>
+        <p class="Argumentpara"><b>NC</b> - Not Controlled</p>
+        <p class="Argumentpara"><b>NO</b> - Not Observed</p>
+        <h3>DT (Detected) = DR + DS + DI + D2 + TP</h3>
+        <p class="Base">The "detected" fault class is comprised of faults which have been identified as "hard"
+detected. A hard detection guarantees a detectable difference between the expected value and the fault
+effect value. The detection identification can be performed by simulation or implication analysis.</p>
+        <ul>
+            <li value="1">
+                <p class="Base">DR (Detected Robustly)</p>
+                <p class="Base">DR faults are hard detected
+by the fault simulator using weak non-robust (WNR), robust (ROB), or hazard-free robust (HFR) testing
+criteria to mark path delay faults. During ATPG, at least one pattern that caused the fault to be placed
+in this class is retained. This classification applies only to Path Delay ATPG. </p>
+            </li>
+            <li value="2">
+                <p class="Base">DS (Detected by Simulation)</p>
+                <p class="Base">DS faults are hard detected by explicit simulation of
+patterns. During ATPG, at least one pattern that caused the fault to be placed in this class is retained.<br /></p>
+            </li>
+            <li value="3">
+                <p class="Base">DI (Detected by Implication)</p>
+                <p class="Base">DI faults are detected by an implication analysis.
+Faults which reside on pins which are in the scan chain path are declared detected due to the application
+of a scan chain functional test. Faults on ungated circuitry that connect to the shift clock line of scan
+cells are also considered detected by implication. Faults on ungated circuitry that connect to the set/reset
+lines of scan cells and cause the set/reset to be active are also considered detected by implication.
+No credit is given when the scan chain path is multiply sensitized. Faults are immediately placed into
+this fault class when they are added to the fault list.<br /></p>
+            </li>
+            <li class="Base" value="4">D2<p>A fault is classified as D2 if a clock fault is detected and the loadable nonscan cell faulty value is set to both 0 and 1. Note that the loadable nonscan cells feature must be active. For more information, see <a href="../../man_use_loadable_nonscan_cells.htm">"Using Loadable Nonscan Cells in TetraMAX."</a></p></li>
+            <li class="Base" value="5">TP (Transition Partially-Detected)<p style="font-weight: normal;">TP faults are detected with a slack that exceeds the minimum slack by more than value specified by the <span class="Commandfont">-max_delta_per_fault</span> option of the <span class="Commandfont">set_delay</span> command. A TP fault can continue to be simulated with the intention of getting a better test for the fault.</p></li>
+        </ul>
+        <h3>PT (Possibly Detected) = AP + NP + P0 + P1</h3>
+        <ul>
+            <li value="1">
+                <p class="Base">AP (ATPG Untestable, Possibly Detected)</p>
+                <p class="Base">AP faults are possibly detected faults. A faulty machine response
+will simulate an "X" rather than a 1 or 0. Analysis has determined that the fault cannot be
+detected with the current ATPG constraints and restrictions so the fault is removed from the active fault
+list and no further patterns for detecting this fault is attempted. At least one pattern which demonstrates
+that the presence of the fault will simulate as X is retained unless the <span class="Commandfont">-pt_credit</span> option of the
+<!--ForeHelp.Hotspot JUMP="man_set_faults"--><!--ForeHelp.EndHotspot--><a href="../../man_set_faults.htm"><span class="Commandfont">set_faults</span></a><a name="kanchor14"></a> command has been used to indicate no credit should be given for PT faults. The default
+PT credit is 50%.<br /></p>
+            </li>
+            <li value="2">
+                <p class="Base">NP (Not Analyzed, Possibly Detected)</p>
+                <p class="Base">NP faults are identical to AP faults except that either analysis was not completed or could
+not prove that the fault would always simulate as an X. It is still possible that a different pattern
+could detect the fault and it's classification could become DS, until then it's classification remains
+NP and it remains in the active fault list. At least one pattern which demonstrates that the presence
+of the fault will simulate as X is retained unless the <span class="Codefont"></span><span class="Commandfont">-pt_credit</span> option of the <!--ForeHelp.Hotspot JUMP="man_set_faults"--><!--ForeHelp.EndHotspot--><a href="../../man_set_faults.htm"><span class="Commandfont">set_faults</span></a> command has been used to indicate no credit should be given for PT faults. The default
+PT credit is 50%.<br /></p>
+            </li>
+            <li class="Base" value="3">P0<p>A fault is classified as P0 fault if a clock fault is detected and the loadable nonscan cell faulty value is set to 0. This classification applies only if the loadable nonscan cells feature is active. For more information, see <a href="../../man_use_loadable_nonscan_cells.htm">"Using Loadable Nonscan Cells in TetraMAX."</a></p><li class="Base" value="2">P1<p>A clock fault is classified as P1 if  a clock fault is detected and the loadable nonscan cell faulty value is set to 1. Note that the loadable nonscan cells feature must be active. For more information, see <a href="../../man_use_loadable_nonscan_cells.htm">"Using Loadable Nonscan Cells in TetraMAX."</a></p></li></li>
+        </ul>
+        <h3>UD (Undetectable) = UU + UO + UT + UB + UR</h3>
+        <p>The "undetectable" fault classes include faults which cannot be detected (either hard or
+possible) under any conditions. When calculating <!--ForeHelp.Hotspot POPUP="man_coverage_calculations"--><!--ForeHelp.EndHotspot--><a href="../../man_coverage_calculations.htm">test
+coverage,</a> these faults are not considered because they have no logical effect on the circuit behavior
+and cannot cause failures.</p>
+        <ul>
+            <li value="1">
+                <p class="Base">UU (Undetectable Unused)</p>
+                <p class="Base">UU faults are located on circuitry with no connectivity to an externally
+observable point. During the creation of the simulation model, the default is to remove this unused circuitry
+which results in these faults not existing. To expose these faults, you need to select the <span class="Commandfont">-nodelete_unused_gate</span> option of the <!--ForeHelp.Hotspot JUMP="man_set_build"--><!--ForeHelp.EndHotspot--><a href="../../man_set_build.htm"><span class="Commandfont">set
+build</span></a> command. Faults are immediately placed into this fault class when they are added to the
+fault list.<br /></p>
+            </li>
+            <li value="2">
+                <p>UO (Undetectable Unobservable)</p>
+                <p>UO faults are similar to UU faults, except they are located on unused gates <i>with</i> fanout (i.e., gates connected to other unused gates). Faults on unused gates <i>without</i> fanout are identified as UU faults.<br /></p>
+            </li>
+            <li value="3">
+                <p class="Base">UT (Undetectable Tied)</p>
+                <p class="Base">A UT fault is located on a pin that is tied to a value that is the same as the
+fault value. Faults are immediately placed into this fault class when they are added to the fault list.<br /></p>
+            </li>
+            <li value="4">
+                <p class="Base">UB (Undetectable Blocked)</p>
+                <p class="Base">A UB fault is located on circuitry that is blocked from propagating to an observable
+point due to tied logic. Faults are immediately placed into this fault class when they are added to the
+fault list.<br /></p>
+            </li>
+            <li value="5">
+                <p class="Base">UR (Undetectable Redundant)<br />URs fault are undetectable
+(using both hard detection and possible detection). Test generation fault analysis is performed when adding faults, during pattern-by-pattern test generation (as a result of the <span class="Commandfont"><a href="../../man_run_atpg.htm">run_atpg</a></span> command), and as a dedicated analysis of local or global redundancies (also as a result of <span class="Commandfont"><a href="../../man_run_atpg.htm">run_atpg</a></span>). When adding faults (using the <span class="Commandfont"><a href="../../man_add_faults.htm">add_faults</a></span> command), an analysis is performed to identify and remove from the active list those faults which can easily be shown to be AU or UR. A simple form of ATPG is used during this analysis. Fault grading can never place a fault in this class.</p>
+            </li>
+        </ul>
+        <h3>AU (ATPG Untestable) = AN<br /></h3>
+        <p>"ATPG&#160;Untestable" faults include faults which can neither be hard detected under
+the current ATPG conditions nor proved redundant. When calculating test coverage, these faults are considered
+the same as untested faults because they have the potential to cause failures. </p>
+        <ul>
+            <li value="1">
+                <p class="Base">AN (ATPG Untestable, Not Detected)</p>
+                <p class="Base">AN faults have not been possibly detected and an analysis was performed
+to prove it cannot be detected under current ATPG conditions. The analysis also failed the redundancy
+check. Faults can immediately be placed in this class if they are inconsistent with the pre-calculated
+constrained value information. Others can require test generation analysis. After they are placed in this class,
+they are removed from the active fault list and not given any further opportunity to become possible detected.
+Primary reasons for faults
+in this classification include:<br /></p>
+                <ul>
+                    <li value="1">
+                        <p class="Base">Fault untestable due to a constraint which is in effect.</p>
+                    </li>
+                    <li value="2">
+                        <p class="Base">Fault requires sequential patterns for detection.</p>
+                    </li>
+                    <li value="3">
+                        <p class="Base">Fault can only be possible detected.</p>
+                    </li>
+                    <li value="4">
+                        <p class="Base">Fault requires using an unresolvable Z state for detection.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="Base" value="2">
+                <p>AX (ATPG Untestable, Timing Exceptions)</p>
+                <p>For each fault affected by SDC (Synopsys 				Design Constraints) timing exceptions, if all the gates in both the backward and forward logic cones are part of the same timing exception simulation path, then the fault is marked AU and is assigned an AX subclass. This analysis finds the effects of setup exceptions, so it does not affect exceptions that are applied only to hold time. <br /></p>
+                <p>To enable this type of analysis, use the <span class="Commandfont"><a href="../../man_set_atpg.htm">set_atpg</a> -timing_exceptions_au_analysis</span> command. To configure separate reporting of these faults, use the <span class="Commandfont"><a href="../../man_set_faults.htm">set_faults</a> -summary verbose</span> command.</p>
+                <p>Note that AX analysis is applied only for transition delay faults. The commands used for AX analysis are accepted for other fault models, but the results will not show any AX faults. </p>
+            </li>
+        </ul>
+        <h3>ND (Not Detected) = NC + NO<br /></h3>
+        <p>An ND fault indicates that test generation has not yet been able to create a pattern that
+controls or observes the fault. For these faults, it is possible that increasing the ATPG effort with
+the <!--ForeHelp.Hotspot JUMP="man_set_atpg"--><!--ForeHelp.EndHotspot--><a href="../../man_set_atpg.htm"><span class="Commandfont">set_atpg</span></a><span class="Commandfont"> -abort_limit</span> command will result in these faults becoming some other classification.</p>
+        <ul>
+            <li value="1">
+                <p class="Base">NC (Not Controlled)</p>
+                <p class="Base">The NC fault class indicates that no pattern was yet found that would control the fault site to the
+state necessary for fault detection. This is the initial default class for all faults.<br /></p>
+            </li>
+            <li value="2">
+                <p class="Base">NO (Not Observed)</p>
+                <p class="Base">The NO fault class indicates that, although the fault site is controllable, that no pattern has yet
+been found to observe the fault so that credit can be given for detection.<br /></p>
+            </li>
+        </ul>
+        <h4 data-mc-conditions="pdf.pdf_exclude">See Also </h4>
+        <p class="Linklist" data-mc-conditions="pdf.pdf_exclude">
+            <!--ForeHelp.Hotspot JUMP="man_set_atpg"-->
+            <!--ForeHelp.EndHotspot--><a href="../../man_set_atpg.htm">set_atpg</a>
+            <br />
+            <!--ForeHelp.Hotspot JUMP="man_set_build"-->
+            <!--ForeHelp.EndHotspot--><a href="../../man_set_build.htm">set_build</a>
+            <br />
+            <!--ForeHelp.Hotspot JUMP="man_set_faults"-->
+            <!--ForeHelp.EndHotspot--><a href="../../man_set_faults.htm">set_faults</a>
+            <br />
+            <!--ForeHelp.Hotspot JUMP="man_report_faults"-->
+            <!--ForeHelp.EndHotspot--><a href="../../man_report_faults.htm">report_faults</a>
+        </p>
+        <p data-mc-conditions="pdf.pdf_exclude">
+            <br />
+        </p>
+        <hr xmlns="http://www.w3.org/1999/xhtml" width="99%" size="0" align="center" />
+        <p class="copyreserve" style="text-align: left;"><a href="https://solvnet.synopsys.com/copyright.jsp" target="blank"><span style="text-decoration: none;">© 2015 Synopsys Inc. All Rights Reserved.</span></a>
+        </p>
+        <MadCap:conditionalText data-mc-conditions="WH.Exclude_WebHelp">
+            <script src="../../Resources/MasterPages/highlighter.js">
+            </script>
+            <script>/* <![CDATA[ */doSearch();/* ]]> */</script>
+        </MadCap:conditionalText>
+    </body>
+</html>
